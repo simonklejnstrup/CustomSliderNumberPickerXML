@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="gradiant_start">#FF753F4F</color>
+    <color name="gradiant_end">#FF221E33</color>
+    <color name="slider_background">#FB986C</color>
+    <color name="knob">#FFCA6C42</color>
+    <color name="popup_knob">#FFFB986C</color>
+    <color name="inactive_number">#59000000</color>
+    <color name="active_number">#FFFFFF</color>
+</resources>
