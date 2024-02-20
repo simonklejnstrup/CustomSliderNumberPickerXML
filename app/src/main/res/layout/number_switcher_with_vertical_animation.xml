@@ -7,6 +7,14 @@
     android:orientation="horizontal"
     android:gravity="center_vertical">
 
+    <View
+        android:id="@+id/draggable_view"
+        android:layout_width="48dp"
+        android:background="@drawable/active_number_background"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp"/>
+
 
 
 <!--    <LinearLayout-->
@@ -95,11 +103,7 @@
         android:gravity="center"
         />
 
-    <View
-        android:id="@+id/draggable_view"
-        android:layout_width="48dp"
-        android:background="@drawable/active_number_background"
-        android:layout_height="wrap_content"/>
+
     <TextView
         android:id="@+id/tv_text_4"
         android:layout_width="0dp"
@@ -117,9 +121,9 @@
         android:layout_weight="1"
         android:layout_height="match_parent"
         android:text="5"
-        android:fontFamily="@font/open_sans_bold"
+        android:fontFamily="@font/open_sans_regular"
         android:textSize="@dimen/number_fontsize"
-        android:textColor="@color/active_number"
+        android:textColor="@color/inactive_number"
         android:gravity="center"
         />
 
@@ -129,6 +133,7 @@
 <!--        android:layout_height="wrap_content"-->
 <!--        android:layout_marginTop="2dp"-->
 <!--        android:layout_marginBottom="2dp"/>-->
+
     <TextView
         android:id="@+id/tv_text_6"
         android:layout_width="0dp"
