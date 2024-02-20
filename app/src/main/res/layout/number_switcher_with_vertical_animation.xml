@@ -7,6 +7,60 @@
     android:orientation="horizontal"
     android:gravity="center_vertical">
 
+
+
+<!--    <LinearLayout-->
+<!--        android:id="@+id/ll_1"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_weight="1"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:orientation="vertical"-->
+<!--        android:background="@color/slider_background"-->
+<!--        android:gravity="center">-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/tv_text_11"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:text="1"-->
+<!--            android:fontFamily="@font/open_sans_regular"-->
+<!--            android:textSize="@dimen/number_fontsize"-->
+<!--            android:textColor="@color/inactive_number"-->
+<!--            android:gravity="center"-->
+<!--            />-->
+<!--    </LinearLayout>-->
+
+<!--    <LinearLayout-->
+<!--        android:id="@+id/ll_0"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_weight="1"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:orientation="vertical"-->
+<!--        android:background="@color/slider_background"-->
+<!--        android:gravity="center">-->
+<!--        <View-->
+<!--            android:id="@+id/drag_view"-->
+<!--            android:layout_width="48dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:background="@drawable/active_number_background"-->
+<!--            android:clickable="true"-->
+<!--            android:layout_marginTop="2dp"-->
+<!--            android:layout_marginBottom="2dp"-->
+<!--            android:focusable="true" />-->
+<!--        <TextView-->
+<!--            android:id="@+id/tv_text_00"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:text="0"-->
+<!--            android:fontFamily="@font/open_sans_regular"-->
+<!--            android:textSize="@dimen/number_fontsize"-->
+<!--            android:textColor="@color/inactive_number"-->
+<!--            android:gravity="center"-->
+<!--            />-->
+<!--    </LinearLayout>-->
+
+
+
     <TextView
         android:id="@+id/tv_text_1"
         android:layout_width="0dp"
@@ -17,7 +71,6 @@
         android:textSize="@dimen/number_fontsize"
         android:textColor="@color/inactive_number"
         android:gravity="center"
-        android:background="@drawable/active_number_background"
         />
     <TextView
         android:id="@+id/tv_text_2"
@@ -41,6 +94,12 @@
         android:textColor="@color/inactive_number"
         android:gravity="center"
         />
+
+    <View
+        android:id="@+id/draggable_view"
+        android:layout_width="48dp"
+        android:background="@drawable/active_number_background"
+        android:layout_height="wrap_content"/>
     <TextView
         android:id="@+id/tv_text_4"
         android:layout_width="0dp"
@@ -58,11 +117,18 @@
         android:layout_weight="1"
         android:layout_height="match_parent"
         android:text="5"
-        android:fontFamily="@font/open_sans_regular"
+        android:fontFamily="@font/open_sans_bold"
         android:textSize="@dimen/number_fontsize"
-        android:textColor="@color/inactive_number"
+        android:textColor="@color/active_number"
         android:gravity="center"
         />
+
+<!--    <com.example.customsliderassignment.DraggableCircleView-->
+<!--        android:id="@+id/draggable_circle"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="2dp"-->
+<!--        android:layout_marginBottom="2dp"/>-->
     <TextView
         android:id="@+id/tv_text_6"
         android:layout_width="0dp"
@@ -74,7 +140,7 @@
         android:textColor="@color/inactive_number"
         android:gravity="center"
         />
-    <TextView
+<TextView
         android:id="@+id/tv_text_7"
         android:layout_width="0dp"
         android:layout_weight="1"
@@ -85,7 +151,7 @@
         android:textColor="@color/inactive_number"
         android:gravity="center"
         />
-    <TextView
+<TextView
         android:id="@+id/tv_text_8"
         android:layout_width="0dp"
         android:layout_weight="1"
@@ -96,6 +162,7 @@
         android:textColor="@color/inactive_number"
         android:gravity="center"
         />
+
 
 
 </LinearLayout>
