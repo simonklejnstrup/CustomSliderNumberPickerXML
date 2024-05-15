@@ -36,5 +36,8 @@ This project is licensed under the [MIT] License - see the [LICENSE.md](LICENSE.
 
 ## Screenrecording
 
-https://github.com/simonklejnstrup/CustomSliderNumberPickerXML/assets/63997120/8f8e4bc1-3196-42c2-8dc6-f9c2ba9aa5a5
+https://github.com/simonklejnstrup/CustomSliderNumberPickerXML/assets/63997120/b0054850-b8a8-4a76-b169-8678b90a11ef
+
+
+
 
