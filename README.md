@@ -4,7 +4,7 @@
 
 ## Introduction
 
-This slider was made as a exercise in WML views.
+This slider was made as a exercise in using XML views - Jetpack Compose and 3rd party libraries being prohibited.
 
 ## Features
 
